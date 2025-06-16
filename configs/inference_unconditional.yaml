@@ -1,0 +1,12 @@
+# Unconditional sampling
+defaults:
+  - _inference
+  - _self_
+
+inference:
+  task: unconditional
+  ckpt_path:
+
+  samples:
+    length_subset:
+    samples_per_length: 200
