@@ -7,4 +7,4 @@ The inference can be run with the command
 python -W ignore experiments/inference_se3_flows.py -cn inference_unconditional inference.num_gpus=2 inference.ckpt_path=./ckpt/epoch\\=599-step\\=293400.ckpt 
 ```
 # Acknowledgement
-The majority of the code is adapted from the [original work](https://github.com/microsoft/protein-frame-flow). We sincerely appreciate the authors' contribution. For additional details regarding the environment and setup, please refer to the original repository.
+The majority of the code is from the [original work](https://github.com/microsoft/protein-frame-flow). We sincerely appreciate the authors' contribution. For additional details regarding the environment and setup, please refer to the original repository.
